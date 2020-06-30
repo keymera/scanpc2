@@ -1,0 +1,24 @@
+body{
+	background: #000;
+	color: #FFF;
+
+}
+
+header .container{
+	background: #444;
+	border-bottom: 20px solid #000;
+}
+header h1.title {
+	color:#FFF;
+	margin: 15px 0;
+}
+
+
+footer .container {
+	background: #000;
+}
+
+footer p {
+	color: #FFF;
+	margin-top:10px;
+}

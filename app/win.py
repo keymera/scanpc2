@@ -1,0 +1,16 @@
+import platform
+sistema = platform.system()
+maquin = platform.machine()
+procesa = platform.processor()
+x = platform.architecture()
+y = platform.release()
+z = platform.version()
+xx = (sistema + " " + str(y)) 
+#print("Estamos en {}".format(sistema))
+#print("tenienes un {}".format(maquin))
+#print("tenienes un {}".format(procesa))
+#print ("esto es {}".format(x))
+#print ("esto es {}".format(y))
+print ("esto es {}".format(xx))
+#print ( sistema + " "+ str(y))
+
